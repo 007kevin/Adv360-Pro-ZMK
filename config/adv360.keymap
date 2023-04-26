@@ -38,6 +38,7 @@
         #binding-cells = <0>;
         bindings = <&kp BSPC>, <&kp RET>;
         mods = <(MOD_LGUI | MOD_RGUI)>;
+        masked_mods = <(MOD_LGUI | MOD_RGUI)>; // don't send held modifier
     };
   };
 
